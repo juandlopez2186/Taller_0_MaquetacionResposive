@@ -1,0 +1,486 @@
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+:root{
+    --color1:#157A8A;
+    --color2:#337AB7;
+    --color3:#48D6ED;
+    --color4:#B2B3B3;
+    --color5:#9C2759;
+    --color6:#303342;
+}
+
+span{
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-family: 'Marcellus', serif;
+    font-size: 20px;
+    font-size: 30px;
+}
+h4{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    color: white;
+}
+h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: white;
+}
+h2{
+    margin-top: 5%;
+    margin-left: 8%;
+    font-family: 'roboto', serif;
+    font-size: 20px;
+    color: white;
+}
+.container_mother{
+    display: flex;
+    flex-direction: row;
+}
+body{
+    width: 100%;
+    height: 1500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.narvar1{
+    background-color: var(--color6);
+    width: 19rem;
+    height: 59rem;
+}
+.container_logo_and_user {
+    background-color: var(--color2);
+    height: 220px;
+}
+.vector_barra {
+    width: 210px;
+    height: 100px;
+    position: relative;
+    right: 18px;
+}
+.logo {
+    position: relative;
+    bottom: 110px;
+    margin-left: 12%;
+    width: 150px;
+    height: 150px;
+}
+.icon_button2 {
+    display: none;
+}
+.apartado {
+    width: 160px;
+    text-align: center;
+    margin-left: 15%;
+    position: relative;
+    bottom: 110px;
+}
+.iconos_narvar {
+    width: 50px;
+    height: 40px;
+}
+.icon_text {
+    margin-left: 4%;
+    margin-top: 8%;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    background-color: var(--color6);
+    cursor: pointer;
+}
+.icon_text2 {
+    width: 200px;
+    margin-top: 50%;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    background-color: var(--color6);
+    cursor: pointer;
+}
+.icono_cerrar_sesion {
+    margin-top: 3%;
+    margin-left: 8%;
+    width: 40px;
+    height: 35px;
+}
+
+.container_form {
+    margin-top: 3%;
+    margin-left: 5%;
+    width: 63rem;
+    height: 50rem;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.elements_form {
+    display: flex;
+    flex-direction: row;
+}
+.title {
+    text-align: center;
+    margin: 2%;
+}
+.contenedor_imagen_icon {
+    display: flex;
+    flex-direction: column;
+}
+.img_user {
+    margin-left: 40px;
+    width: 180px;
+}
+.subir {
+    cursor: pointer;
+    margin-left: 40px;
+    width: 180px;
+    background-color: #337AB7;
+}
+.icon_button {
+    width: 105px;
+    height: 55px;
+}
+.boton_cambiarcontra {
+    cursor: pointer;
+    width: 180px;
+    height: 90px;
+    margin-left: 40px;
+    background-color: #333333;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    color: white;
+}
+.formulario_user {
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.dates {
+    width: calc(100% / 2 - 0px);
+}
+.dates2 {
+    width: calc(100% / 2 - 0px);
+}
+.inputs {
+    margin-top: 2%;
+    width: 320px;
+    height: 30px;
+    padding-left: 10px;
+}
+input::placeholder {
+    position: relative;
+    left: 5px;
+    font-family: 'Marcellus', 'sans-serif';
+    font-size: 15px;
+    color: black;
+}
+input:focus {
+    outline: none;
+    border-color: transparent;
+}
+.check {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+/* Estilo para el checkbox personalizado */
+.check {
+    cursor: pointer;
+    margin-top: 2%;
+    margin-right: 2%;
+    border-radius: 50%;
+    border: 2px solid var(--color2);
+    width: 15px;
+    height: 15px;
+    position: relative;
+}
+
+/* Estilo del checkbox cuando está marcado */
+.check:checked {
+    background-color: var(--color2);
+    border-color: var(--color2)
+}
+
+/* Estilo para el texto al lado del checkbox */
+.check + span {
+    margin-left: 5px;
+    position: relative;
+    top: -3px; 
+}
+.boton1_form {
+    cursor: pointer;
+    margin-top: 5%;
+    width: 200px;
+    height: 40px;
+    background-color: #000000;
+    color: white;
+    font-size: 20px;
+    font-family: 'Marcellus', sans-serif;
+}
+.boton1_form:hover {
+    cursor: pointer;
+    margin-top: 5%;
+    width: 200px;
+    height: 40px;
+    background-color: var(--color2);
+    color: white;
+    font-size: 20px;
+    font-family: 'Marcellus', sans-serif;
+}
+.form_cambio_clave {
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 27%;
+}
+.boton_cambio {
+    cursor: pointer;
+    margin-top: 3%;
+    width: 200px;
+    height: 40px;
+    background-color: #000000;
+    color: white;
+    font-size: 20px;
+    font-family: 'Marcellus', sans-serif;
+}
+.boton_cambio:hover {
+    cursor: poin    ter;
+    margin-top: 3%;
+    width: 200px;
+    height: 40px;
+    background-color: var(--color2);
+    color: white;
+    font-size: 20px;
+    font-family: 'Marcellus', sans-serif;
+}
+.narvar_user {
+    display: none;
+}
+.narvar_logo_cell {
+    display: none;
+}
+@media (max-width: 600px) {
+    .container_mother {
+        display: flex;
+        flex-direction: row;
+    }
+    .narvar1 {
+        background-color: var(--color6);
+        width: 4rem;
+        height: 95rem;
+    }
+    .container_logo_and_user {
+        background-color: var(--color2);
+        height: 220px;
+    }
+    .vector_barra {
+        width: 70px;
+        height: 140px;
+        position: relative;
+    }
+    .logo {
+        display: none;
+    }
+    .narvar_logo_cell {
+        display: block;
+        width: 45px;
+        height: 45px;
+        position: relative;
+        bottom: 120px;
+        margin-left: 15%;
+        margin-bottom: 20%;
+    }
+    .narvar_user {
+        display: block;
+        width: 45px;
+        height: 45px;
+        position: relative;
+        bottom: 120px;
+        margin-left: 15%;
+        border-radius: 5px;
+    }
+    .text_iconos {
+        display: none;
+    }
+    .apartado {
+        display: none;
+    }
+    .container_logo_and_user {
+        background-color: var(--color2);
+        height: 170px;
+        margin-bottom: 80%;
+    }
+    .icono_cerrar_sesion {
+        margin-top: 500px;
+        margin-left: 5%;
+        width: 40px;
+        height: 35px;
+    }
+    .icon_text2 {
+        width: 60px;
+        margin-top: 50%;
+        display: flex;
+        flex-direction: row;
+        border: none;
+        background-color: var(--color6);
+        cursor: pointer;
+    }
+    .container_form {
+        margin-top: 3%;
+        margin-left: 3%;
+        width: 15rem;
+        height: 95rem;
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+    .elements_form {
+        display: flex;
+        flex-direction: column;
+    }
+    .title {
+        text-align: center;
+        margin: 2%;
+    }
+    h1 {
+        font-family: 'Marcellus', serif;
+        font-size: 18px;
+    }
+    .contenedor_imagen_icon {
+        margin-top: 5%;
+        margin-left: 9%;
+        display: flex;
+        flex-direction: column;
+    }
+    .img_user {
+        margin-left: 5px;
+        width: 180px;
+    }
+    .subir {
+        cursor: pointer;
+        margin-left: 5px;
+        width: 180px;
+        background-color: rgba(255, 255, 255, 0.0);
+    }
+    .icon_button2 {
+        display: block;
+        width: 80px;
+        height: 70px;
+    }
+    .subir {
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        background-color: #337AB7;
+    }
+    .icon_button {
+        display: none;
+    }
+    .boton_cambiarcontra {
+        display: none;
+    }
+    .formulario_user {
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+    h4 {
+        margin-top: 6%;
+        font-family: 'Playfair Display', serif;
+        font-size: 17px;
+        width: 300px;
+        margin-bottom: 5%;
+    }
+    .inputs {
+        margin-top: 2%;
+        width: 188px;
+        height: 30px;
+        padding-left: 10px;
+    }
+    .form_cambio_clave {
+        margin-top: 15%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+    }
+    .check {
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+
+    /* Estilo para el checkbox personalizado */
+    .check {
+        cursor: pointer;
+        margin-right: 2%;
+        border-radius: 50%;
+        border: 2px solid var(--color2);
+        width: 10px;
+        height: 10px;
+        position: relative;
+        bottom: 3px;
+    }
+
+    /* Estilo del checkbox cuando está marcado */
+    .check:checked {
+        background-color: var(--color2);
+        border-color: var(--color2)
+    }
+    .dates2 {
+        width: 200px;
+        margin-bottom: 3%;
+    }
+
+    .boton_cambio {
+        cursor: pointer;
+        margin-top: 4%;
+        width: 150px;
+        height: 40px;
+        background-color: #000000;
+        color: white;
+        font-size: 20px;
+        font-family: 'Marcellus', sans-serif;
+    }
+    .boton_cambio:hover {
+        cursor: pointer;
+        margin-top: 4%;
+        width: 150px;
+        height: 40px;
+        background-color: var(--color2);
+        color: white;
+        font-size: 20px;
+        font-family: 'Marcellus', sans-serif;
+    }
+    .boton1_form {
+        cursor: pointer;
+        margin-top: 8%;
+        width: 150px;
+        height: 40px;
+        background-color: #000000;
+        color: white;
+        font-size: 20px;
+        font-family: 'Marcellus', sans-serif;
+    }
+    .boton1_form:hover {
+        cursor: pointer;
+        margin-top: 8%;
+        width: 150px;
+        height: 40px;
+        background-color: var(--color2);
+        color: white;
+        font-size: 20px;
+        font-family: 'Marcellus', sans-serif;
+    }
+}

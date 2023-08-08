@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+:root{
+    --1:#FFFFFF;
+    --2:#5F88AF;
+    --3:#161719;
+    --4:rgba(73, 124, 169, 0.93);
+}
+body{
+    background: url('../img/bg-login.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--4);
+    border-radius: 0.2rem;
+    margin-left: 45%;
+}
+.cont div{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 8rem;
+}
+.hote{
+    position: relative;
+    bottom: 11rem;
+    left: 2rem;
+    width: 40%;
+    height: auto;
+}
+.icon{
+    font-size: 6rem;
+}
+.formu{
+    display: flex;
+    justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    display: flex;
+    color: var(--1);
+    font-size: 1.4rem;
+}
+input{
+    display: flex;
+    margin-top: 0.6rem;
+    margin-bottom: 1rem;
+    width: 27rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 0.2rem;
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--3); 
+    color: var(--1);
+    border: none;
+    font-size: 1.3rem;
+    position: relative;
+    top: 4rem;
+}
+.link{
+    display: none;
+}
+.link label{
+    display: none;
+}
+.link a{
+    display: none;
+}
+@media screen and (min-width: 1024px){
+    .link{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 3.8rem;
+    }
+    .link label{
+        display: block;
+        color: var(--1);
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.3rem;
+    }
+    .link a{
+        display: block;
+        color: var(--3);
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        font-size: 1.3rem;
+    }    
+}

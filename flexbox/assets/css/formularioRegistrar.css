@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --1:#ffff;
+    --2:linear-gradient(49.54deg, rgba(51, 122, 183, .9) 2.89%, rgba(11, 56, 96, .9) 80.34%);
+    --3:rgba(230, 230, 230, .88);
+    --4:#222222;
+    --5:#7A7A7A;
+    --6:#337AB7;
+    --7: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+}
+body{
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#hote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: var(--2);
+    color: var(--1);
+    width: 27%;
+}
+
+.eres{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 3rem;
+}
+
+.un{
+    display: none;
+}
+
+.eres h1{
+    display: flex;
+    font-family: 'Marcellus';
+    font-weight: 500;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.logi{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 85%;
+    position: relative;
+    bottom: 5rem;
+}
+
+.logi img{
+    display: flex;
+    height: 7rem;
+    width: auto;
+}
+
+.logi h1{
+    display: flex;
+    font-size: 6rem;
+    font-family: 'Marcellus';
+    text-decoration: none;
+    font-weight:100;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 95%;
+    width: 56.2%;
+    border-radius: .6rem;
+    position: relative;
+    left: 10rem;
+    top: 1.5rem;
+    background-color: var(--3);
+}
+
+select{
+    display: flex;
+    border: none;
+    border-radius: 0.11rem;
+    height: 2.5rem;
+    width: 23rem;
+    box-shadow: 0 .2rem .5rem rgba(0, 0, 0, 0.2);
+    background-color: var(--1);
+    font-size: 1.2rem;
+    color: var(--5);
+}
+input{
+    display: flex;
+    border: none;
+    border-radius: 0.11rem;
+    height: 2.5rem;
+    width: 23rem;
+    box-shadow: 0 .2rem .5rem rgba(0, 0, 0, 0.2);
+    background-color: var(--1);
+}
+
+input[type="file"]{
+    height: 2.5rem;
+    border-radius: 0.11rem;
+    box-shadow: 0 .2rem .5rem rgba(0, 0, 0, 0.2);
+    background-color: var(--1);
+}
+
+input[type="date"] {
+    display: flex;
+    width: 23rem;
+    height: 2.5rem;
+}
+
+.infile {
+    display: flex;
+    height: 2.5rem;
+    width: 15rem;
+    background-color: var(--1);
+    border-radius: 0.11rem;
+    text-align: center;
+    box-shadow: 0 .2rem .5rem rgba(0, 0, 0, 0.2);
+    font-weight:300;
+    font-size: 1.5rem;
+    color: var(--5);
+}
+
+.hidfile {
+    display: none;
+}
+
+.pack{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 5rem;
+    width: 23rem;
+    margin-right: 2rem;
+    position: relative;
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.packG{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 25rem;
+}
+span{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.regis{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Marcellus';
+}
+
+.regis h1{
+    font-size:5rem;
+    font-weight: 100;
+}
+
+.checkg{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.checkg{
+    height: 1rem;
+    width: 1rem;
+    color: var(--6);
+    border-radius: .7rem;
+    border: 0.17rem solid var(--6);
+}
+
+.checkg:checked{
+    background-color: var(--6);
+}
+
+.check{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.check input{
+    display: flex;
+    height: 1rem;
+    width: 1rem;
+}
+
+.check h1{
+    display: flex;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 1.6rem;
+    margin-left: 1rem;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.btn input{
+    display: flex;
+    justify-content: center;
+    font-family: 'Marcellus';
+    font-size: 1rem;
+    font-size:2rem;
+    font-weight: -300;
+    background-color: var(--4);
+    color: var(--1);
+    height: 4rem;
+    width: 18rem;
+    border-radius: 0.3rem;
+}
+
+.modal{
+    background-color: rgba(0,0,0,.6);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    overflow: auto;
+    padding-top: 0px;
+    display: none;  
+}
+.contenidoModal{
+    width: 30%;
+    height: 70%;
+    margin: auto;
+    animation-name: animarmodal;
+    animation-duration: .7s;
+    background-color: var(--1);
+    border-radius: .3rem;
+}
+
+.contenidoModal h1{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: var(--7);
+    color: var(--1);
+    font-weight: 100;
+    font-family: 'Marcellus';
+}
+
+.contenidoModal p{
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto';
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+.contenidoModal input{
+    display: flex;
+    justify-content: center;
+}
+@keyframes animarmodal {
+    from{top: -300px; opacity: 0;}
+
+    to{top: 0; opacity: 1;}
+}
+
+.acep{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.X{
+    display: flex;
+    width: 30%;
+    background-color: var(--4);
+    color: var(--1);
+    font-size: 1.5rem;
+}
+@media (max-width: 600px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    #hote{
+        width: 94%;
+        background-image: var(--7);
+        margin-top: 3rem;
+        padding: 1rem;
+    }
+    .logi{
+        display: flex;
+        align-items: center;
+        position: relative;
+        top: -.4rem;
+    }
+    .logi img{
+        height: 4rem;
+        width: 4rem;
+    }
+    .logi h1{
+        font-size: 2rem;
+    }
+    .eres h1{
+        display: none;
+    }
+    .eres h2{
+        display: block;
+        font-size: 1.5rem;
+        position: relative;
+        top: 3rem;
+        font-family: 'Marcellus';
+        font-weight: 200;
+    }
+    form{
+        width: 80%;
+        height: auto;
+        left: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+    }
+    .regis h1{
+        font-size: 3rem;
+    }
+    input{
+        width: 20rem;
+        height: 2rem;
+    }
+    input[type="date"]{
+        width: 20rem;
+        height: 2rem;
+    }
+    input[type="file"]{
+        width: 20rem;
+        height: 2rem;
+    }
+    select{
+        width: 20rem;
+        height: 2rem;
+    }
+    .pack{
+        margin-left: 10%;
+    }
+    .packG{
+        width: 20rem;
+        justify-content: space-around;
+    }
+    .contenidoModal{
+        width: 90%;
+        height: 110%;
+    }
+    .btn input{
+        font-size: 1rem;
+        width: 50%;
+        height: 2rem;
+    }
+}

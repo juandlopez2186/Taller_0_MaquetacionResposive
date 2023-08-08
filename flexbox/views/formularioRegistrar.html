@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/formularioRegistrar.css">
+    <title>Formulario de Registrar</title>
+</head>
+<body style="background-image: url('../assets/img/fondoForRegis.png');">
+    <div id="hote">
+        <div class="logi">
+            <img src="../assets/img/hotelia campana.svg" alt="">
+            <h1>otelia</h1>
+        </div>
+        <div class="eres">
+            <h1>Eres más que bienvenido</h1>
+            <h2 class="un">Un lugar en tu corazón</h2>
+        </div>
+    </div>
+    <form action="">
+        <div class="regis">
+            <h1>Regístrate</h1>
+        </div>
+        <div class="pack">
+            <label for="">Tipo de documento</label>
+            <select name="" id="">
+                <option value="">Escoja una opción</option>
+                <option value="">R.C</option>
+                <option value="">T.I</option>
+                <option value="">C.C</option>
+                <option value="">C.E</option>
+            </select>
+        </div>
+        <div class="pack">
+            <label for="">Número de documento</label>
+            <input type="number">
+        </div>
+        <div class="pack">
+            <label for="">Nombres</label>
+            <input type="text">
+        </div>
+        <div class="pack">
+            <label for="">Apellidos</label>
+            <input type="text">
+        </div>
+        <div class="pack">
+            <label for="">Fecha de nacimiento</label>
+            <input type="date">
+        </div>
+        <div class="pack">
+            <label for="">Género</label>
+            <div class="packG">
+                <input type="checkbox" class="checkg" value="Mujer">
+                <span>Mujer</span>
+                <input type="checkbox" class="checkg" value="Hombre">
+                <span>Hombre</span>
+                <input type="checkbox" class="checkg" value="Otro">
+                <span>Otro</span>
+            </div>
+        </div>
+        <div class="pack">
+            <label for="">Email</label>
+            <input type="text">
+        </div>
+        <div class="pack">
+            <label for="">Teléfono de contacto</label>
+            <input type="text">
+        </div>
+        <div class="pack">
+            <label for="">País de origen</label>
+            <select name="" id="">
+                <option value=""></option>
+                <option value="">Colombia</option>
+                <option value="">Argentina</option>
+                <option value="">Perú</option>
+                <option value="">Brasil</option>
+                <option value="">Otro</option>
+            </select>
+        </div>
+        <div class="pack">
+            <label for="">Foto</label>
+            <label for="seleccionarArchivo" class="infile">Seleccionar archivo</label>
+            <input type="file" id="seleccionarArchivo" name="archivo" class="hidfile">
+        </div>
+        <div class="pack">
+            <label for="">Contraseña</label>
+            <input type="password">
+        </div>
+        <div class="pack">
+            <label for="">Confirmar contraseña</label>
+            <input type="password">
+        </div>
+        <div class="check">
+            <input type="checkbox" id="abrirModal">
+            <h1>Acepto Terminos y Condiciones</h1>
+        </div>
+        <div class="btn">
+            <input type="submit" value="Ingresar">
+        </div>
+    </form>
+    <div id="ventanaModal" class="modal">
+        <div class="contenidoModal">
+            <h1>Términos y Condiciones</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum praesentium minus voluptatum magnam! Repudiandae, distinctio quam laborum fuga 
+                deserunt eaque quis nisi sit maxime. Accusantium ad molestias laudantium perferendis repellat facere consequuntur voluptatum vitae tenetur! 
+                Facilis ipsa veniam culpa, nihil iste et mollitia soluta qui delectus sapiente hic. Dolor, iste eligendi laudantium tempore natus maxime architecto dicta voluptas hic aspernatur!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum praesentium minus voluptatum magnam! Repudiandae, distinctio quam laborum fuga 
+            </p>
+            <div class="acep">
+                <input type="submit" class="X" value="Aceptar">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="../assets/js/termi..js"></script>

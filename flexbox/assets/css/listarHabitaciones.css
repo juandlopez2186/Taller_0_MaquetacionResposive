@@ -1,0 +1,443 @@
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+   }
+   :root{
+       --color1:#157A8A;
+       --color2:#337AB7;
+       --color3:#48D6ED;
+       --color4:#B2B3B3;
+       --color5:#9C2759;
+       --color6:#303342;
+       --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+   }
+   .container_mother{
+    display: flex;
+    flex-direction: row;
+   }
+   h5{
+       font-family: 'Roboto', sans-serif;
+       font-size: 22px;
+       color: white;
+   }
+   h6{
+       font-family: 'Roboto', sans-serif;
+       font-size: 13px;
+       color: white;
+   }
+   .container_mother{
+       display: flex;
+       flex-direction: row;
+   }
+   body{
+       width: 100%;
+       height: 150 0px;
+       background-repeat: no-repeat;
+       background-size: cover;
+   }
+   .narvar1{
+   background-color: var(--color6);
+   width: 300px;
+   height: 1150px;
+   }
+   .container_logo_and_user{
+   background-image: var(--degradado);
+   height: 220px;
+   }
+   .vector_barra{
+       width: 100%;
+       height: 130px;
+       position: relative;
+       right:18px;
+   }
+   .logo{
+       position: relative;
+       bottom: 140px;
+       margin-left: 12%;
+       width: 180px;
+       height: 150px;
+   }
+   .icon_button2{
+       display: none;
+   }
+   .container_apartado{
+    display: flex;
+    flex-direction: row;
+   }
+   .userHabi{
+    position: relative;
+    top: -153px;
+    margin-left: 5%;
+   }
+   .apartado{
+       width: 220px;
+       text-align: center;
+       margin-left: 3%;
+       position: relative;
+       bottom: 140px;
+   }
+   .iconos_narvar{
+       width: 50px;
+       height: 40px;
+   }
+   .icon_text{
+       margin-left: 4%;
+       margin-top: 8%;
+       display: flex;
+       flex-direction: row;
+       border: none;
+       background-color: var(--color6);
+       cursor: pointer;
+   }
+   .icon_text .text_iconos{
+    width: 200px;
+    margin-top: 5%;
+    margin-left: 8%;
+    font-family: 'roboto', serif;
+    font-size: 23px;
+    color: white;
+    text-align: left;
+   }
+   .icon_text .text_iconos1{
+    margin-top: 2%;
+    margin-left: 6%;
+    font-family: 'roboto', serif;
+    font-size: 23px;
+    color: white;
+    text-align: left;
+   }
+   .icon_text2{
+       width: 200px;
+       margin-top: 50%;
+       display: flex;
+       flex-direction: row;
+       border: none;
+       background-color: var(--color6);
+       cursor: pointer;
+   }
+   .icon_text2 .text_iconos{
+    margin-top: 5%;
+    margin-left: 8%;
+    font-family: 'roboto', serif;
+    font-size: 22px;
+    color: white;
+   }
+   .icono_cerrar_sesion{
+       margin-top: 3%;
+       margin-left: 8%;
+       width: 40px;
+       height: 35px;
+   }
+   .narvar_user{
+    display: none;
+   }
+   .narvar_logo_cell{
+    display: none;
+   }
+   .container_listado h1{
+    font-family: 'Marcellus',sans-serif;
+    font-size: 35px;
+    margin-top: 2%;
+    text-align: center;
+   }
+   .container_listado{
+    margin-left: 3%;
+   }
+   .ordenbus{
+    display: flex;
+    flex-direction: row;
+    margin-right: 2%;
+   }
+   .buscar{
+    margin-top: 2%;
+     display: flex;
+     flex-direction: row;
+     width:100%;
+     height: 60px;
+     background-color:#F1F1F1;
+     align-items: center;
+     justify-content: center;
+   }
+   .buscar h3{
+    font-family: 'Playfair Display',sans-serif;
+    font-size: 17px ;
+    margin-left: 3%;
+    margin-right: 2%;
+   }
+   .buscar select{
+    width: 200px;
+    height: 30px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5)
+   }
+   .buscar select::placeholder{
+    font-size: 15px;    
+   }
+   .container_lista{
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .card{
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    height: 450px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+    margin-top: 2%;
+   }
+   .img_habitacion{
+    width: 250px;
+    height: auto;
+   }
+   .habitacion_doblee{
+    background-color: rgba(74, 150, 216, 0.5);
+    width: 250px;
+    text-align: center;
+    position: relative;
+    top: -30px;
+    height: 30px;
+   }
+   .habitacion_doblee2{
+    background-color: rgba(74, 150, 216, 0.5);
+    width: 250px;
+    text-align: center;
+    position: relative;
+    top: -78px;
+    height: 30px;
+   }
+   .habitacion_doblee2 h3{
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    color: #fff;
+   }
+   .habitacion_doblee h3{
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    color: #fff;
+   }
+   .card h4{
+    font-family: 'Marcellus',sans-serif;
+    font-size: 25px ;
+    text-align: center;
+   }
+   .card2{
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+    margin-top: 2%;
+    height: 450px;
+   }
+   .card2 h4{
+    font-family: 'Marcellus',sans-serif;
+    font-size: 25px ;
+    text-align: center;
+    position: relative;
+    top: -75px;
+   }
+   .card2 p{
+    font-family: 'Marcellus',sans-serif;
+    font-size: 13px;
+    text-align:justify;
+    width: 255px;
+    padding: 10px;
+    position: relative;
+    top: -75px;
+   }
+   .card p{
+    font-family: 'Marcellus',sans-serif;
+    font-size: 13px;
+    text-align:justify;
+    width: 255px;
+    padding: 10px;
+   }
+   .container_botones{
+    display: flex;
+    justify-content: center;
+   }
+   .container_botones2{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -75px;
+   }
+   .boton_modificar{
+    background-color: rgb(44, 44, 44);
+    width: 120px;
+    height: 33px;
+    border-radius: 5px;
+    font-family: 'Marcellus',sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-right: 2%;
+   }
+   .boton_inactivar{
+    background-color: var(--color5);
+    width: 120px;
+    height: 33px;
+    border-radius: 5px;
+    font-family: 'Marcellus',sans-serif;
+    font-size: 20px;
+    color: white;
+   }
+   .reservada{
+    height:50rem;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: -150px;
+   }
+   .reservada h1{
+    font-family: 'Playfair Display',sans-serif;
+    font-size: 35px ;
+    color: white;
+    text-shadow: 10px 10px 10px rgba(156, 39, 89, 0.5)
+   }
+   @media (max-width:600px) {
+    .container_mother{
+        display: flex;
+        flex-direction: row;
+    }
+    .narvar1{
+    background-color: var(--color6);
+    width: 60px;
+    height:3000px;  
+    }
+    .container_logo_and_user{
+    background-color: var(--color2);
+    height: 220px;
+    }
+    .vector_barra{
+        width: 70px;
+        height: 140px;
+        position: relative;
+        
+    }
+    .logo{
+        display: none;
+    }
+    .narvar_logo_cell{
+        display: block;
+        width: 45px;
+        height: 45px;
+        position: relative;
+        bottom: 120px;
+        margin-left: 15%;
+        margin-bottom: 20%;
+    }
+    .userHabi{
+        display: block;
+        width: 45px;
+        height: 45px;
+        position: relative;
+        top: -90px;
+        margin-left: 15%;
+        border-radius: 5px;
+    }
+    .text_iconos{
+        display: none;
+    }
+    .apartado{
+        display: none;
+    }
+    .container_logo_and_user{
+        background-color: var(--color2);
+        height: 170px;
+        margin-bottom: 80%;
+    }
+    .icono_cerrar_sesion{
+        margin-top: 500px;
+        margin-left: 5%;
+        width: 40px;
+        height: 35px;
+    }
+    .icon_text2{
+        width: 60px;
+        margin-top: 50%;
+        display: flex;
+        flex-direction: row;
+        border: none;
+        background-color: var(--color6);
+        cursor: pointer;
+    }
+    .text_iconos{
+        display: none;
+    }
+    .text_iconos1{
+        display: none;
+    }
+    .container_listado{
+        display:flex;
+        flex-direction: column;
+        margin-left:3% ;
+    }
+    .ordenbus{
+        position: relative;
+        right: 40px;
+        margin-top: 2%;
+    }
+    .buscar{
+        margin-left:0px ;
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: 130px;
+    }
+    .buscar h3{
+        font-family: 'Playfair Display',sans-serif;
+        font-size: 17px;
+       }
+       .buscar select{
+        width: 170px;
+        height: 30px;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+        margin-left: 2%;
+        
+       }
+       .buscar select::placeholder{
+        font-size: 15px;  
+       }
+       .container_listado h1{
+        font-family: 'Marcellus',sans-serif;
+        font-size: 35px;
+        margin-top: 2%;
+        position: relative;
+        right: 13%;
+       }
+    .container_lista{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .card{
+        width: 270px;
+        height: 50px;
+        margin-left: 4%;
+    }
+    .card p{
+        width: 230px;
+        margin-bottom:30px;
+    }
+    .card2{
+        width: 250px;
+        height: 50px;
+        margin-left: 4%;
+    }
+    .reservada{
+        height:150px;
+        width: 250px;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: relative;
+        top: -150px;
+       }
+       .reservada h1{
+        font-family: 'Playfair Display',sans-serif;
+        font-size: 35px ;
+        color: white;
+        text-shadow: 10px 10px 10px rgba(156, 39, 89, 0.5)
+       }
+}
